@@ -288,7 +288,6 @@ flex-direction: column;
 }
 
 .donaplication{
-    
    color: white;
     font-size: 20px;
 }
@@ -360,9 +359,39 @@ flex-direction: column;
       .menuFooter{
       gap: 5px;
       }
-        
+
     
-   
+         .eplication{
+            width: 0px;
+             display: flex;
+             justify-content: space-around;
+             margin-left:-2px;
+             gap: 50px;
+         }
+       
+         .bazar{
+            display: flex;
+
+         }
+
+         .textbazar{
+            display: none;
+         }
+          
+         .donaplication{
+            font-size: 14px;
+            
+         }
+         footer{
+            height: 600px;
+         }
+
+         .disfooter{
+           height: 500px;
+           font-size: 14px;
+            
+         }
+
 }
 
 

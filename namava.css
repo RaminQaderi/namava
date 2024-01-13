@@ -1,0 +1,370 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+@font-face {
+    font-family:IRANSansX;
+    src: url(./Webfonts/fonts/woff/IRANSansX-UltraLight.woff);
+}
+
+body{
+    background-color: #000000e9;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    gap: 30px;
+    box-shadow: 0px 2px 30px black;
+    
+}
+.filmExtsasi{
+    color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 30px;
+    font-size: 24px;
+}
+
+.boxsiagn{
+    color: white;
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 25px;
+    flex-direction: row-reverse;
+}
+
+.search:hover {
+   color: gray;
+}
+
+.bordersign{
+    border: 1px solid gray;
+}
+.login{
+    display: flex;
+    gap: 10px;
+    
+}
+.signup{
+    padding: 5px;
+    border-radius: 5px;
+}
+.signup:hover{
+    background-color: #0288D1;
+}
+
+.border1{
+    border: 1px solid gray;
+    width: 96%;
+    margin: 0px auto;
+   
+}
+
+.card{
+    display: flex;
+    margin-top: 30px;
+    gap: 10px;
+    flex-wrap: wrap;
+    
+    
+}
+.card1{
+   width: 12%;
+   height: 300px;
+   margin-left: 20px;
+   border-radius: 5px;
+   display: flex;
+   flex-wrap: wrap;
+   cursor: pointer;
+   margin-bottom: 50px;
+}
+
+.card1:hover{
+    box-shadow: 0px 5px 10px black;
+    transform: scale(0.3s);
+}
+.card1 img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.textfilm{
+    font-size: 16px;
+    font-weight: bold;
+   margin: 0px auto;
+   color: white;
+   
+}
+
+.imgHeder{
+    width: 30px;
+    height: 30px;
+    color: white;
+    margin-top: 10px;
+   
+    
+}
+
+.menu{
+    display: flex;
+    justify-content:center;
+    align-items: center; 
+    flex-direction: row-reverse;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    margin-right: 30px;
+   
+}
+
+.menuMobile{
+    display: none !important; 
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 5px;
+    color: white;
+  }
+
+  .menuMobile:active{
+    color:#0288D1;
+  }
+
+  .ImgBanner{
+    width: 96%;
+    height: 700px;
+    object-fit: cover;
+    margin: 30px;
+    border-radius: 20px;
+  }
+
+.MenuHeder{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: row-reverse;
+    margin-right: 20px;
+    
+}
+.Home1{
+    padding: 5px 10px;
+}
+.Home:hover{
+    
+    background-color: #30A9DE;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.Movies:hover{
+    background-color: #30A9DE;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+.series:hover{
+    background-color: #30A9DE;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+
+
+.dastebandi:hover{
+    background-color: #30A9DE;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+.news:hover{
+    background-color: #30A9DE;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.menuFooter{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    width: 100%;
+    height: 40px;
+    background-color: #4a4949;
+    gap: 25px;
+    flex-direction: row-reverse;
+    
+    
+}
+
+.menuFo{
+font-weight: bold;
+cursor: pointer;
+padding: 7px;
+border-radius: 5px;
+font-size: 14px;
+}
+
+.menuFo:hover{
+    background-color: #0288D1;
+    scale: (0.03);
+}
+
+footer{
+width: 100%;
+height: 400px;
+background-color: #242424;
+display: flex;
+align-items: center;
+flex-direction: column;
+
+}
+
+.eplication{
+    width: 70%;
+    height: 100px;
+    background-color: #263238;
+    margin: 30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.enmad{
+    width: 200px;
+    height: 200px;
+    
+}
+
+.textfooter{
+    color: white;
+    width: 60%;
+    line-height: 30px;
+    color: #a8a7a7;
+    text-align: right;
+  
+   
+}
+
+.disfooter{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    width: 90%;
+}
+
+.namava{
+    background-color: #0288D1;
+    width: 70px;
+    height: 60px;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+
+.namavabox{
+    display: flex;
+    gap: 20px;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.donaplication{
+    
+   color: white;
+    font-size: 20px;
+}
+
+.bazar{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    /* border: 1px solid gray; */
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #455A64;
+    
+    }
+
+.bazarlogo{
+    width: 30px;
+    height:30px;
+}
+
+.textbazar{
+    font-size: 14px;
+    color: white;
+}
+
+.textbazar:hover{
+    color: #0288D1;
+}
+
+
+.aplication{
+    display: flex;
+    gap: 15px;
+    margin-left: 100px;
+}
+
+@media only screen and (max-width:1200px) {
+    .MenuHeder{
+        display: none !important;
+    }
+
+    .container{
+        margin-right: 45px;
+    }
+
+    .menuMobile{
+        display: block !important;
+      }
+
+
+
+
+      .card{
+        gap: 50px;
+        display: flex;
+        justify-content: center;
+      }
+      .card1{
+        width: 30%;
+      }
+       
+      
+      .menuFo{
+        font-size: 10px;
+
+      }
+
+      .menuFooter{
+      gap: 5px;
+      }
+        
+    
+   
+}
+
+
+
+

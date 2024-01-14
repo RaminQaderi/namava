@@ -118,8 +118,8 @@ header{
     justify-content:center;
     align-items: center; 
     flex-direction: row-reverse;
-    font-size: 12px;
-    font-weight: bold;
+    font-size: 14px;
+    
     color: white;
     margin-right: 30px;
    
@@ -129,7 +129,7 @@ header{
     display: none !important; 
     font-size: 20px;
     cursor: pointer;
-    margin-top: 5px;
+    margin-top: 10px;
     color: white;
   }
 
@@ -338,7 +338,13 @@ flex-direction: column;
         display: block !important;
       }
 
-
+      .ImgBanner{
+        width: 96%;
+        height: 400px;
+        object-fit: cover;
+        margin: 30px;
+        border-radius: 20px;
+      }
 
 
       .card{

@@ -325,6 +325,44 @@ flex-direction: column;
     margin-left: 100px;
 }
 
+
+.borderfo{
+    border-top: 1px solid gray;
+    width: 70%;
+    margin-top: 15px;
+}
+
+.logo2{
+  font-size: 28px;
+  color: white;
+  cursor: pointer;
+}
+
+.logo2:hover{
+    color: #0288D1;
+}
+
+.logoinstagram{
+    display: flex;
+   gap: 30px;
+}
+.majazi{
+   display: flex;
+   justify-content: center;
+   gap: 320px;
+    margin-top: 20px;
+}
+
+.shaxsi{
+  text-align: center;
+
+}
+
+.textfoo{
+    color: white;
+    font-size: 12px;
+}
+
 @media only screen and (max-width:1200px) {
     .MenuHeder{
         display: none !important;
@@ -394,9 +432,24 @@ flex-direction: column;
 
          .disfooter{
            height: 500px;
-           font-size: 14px;
+           font-size: 12px;
             
          }
+
+         .logoinstagram{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+         }
+
+         .majazi{
+            display: block;
+
+        }
+
+        .textfoo{
+           
+        }
 
 }
 

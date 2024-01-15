@@ -4,10 +4,7 @@
 }
 
 
-@font-face {
-    font-family:IRANSansX;
-    src: url(./Webfonts/fonts/woff/IRANSansX-UltraLight.woff);
-}
+
 
 body{
     background-color: #000000e9;
@@ -27,6 +24,7 @@ header{
     flex-direction: row-reverse;
     margin-right: 30px;
     font-size: 24px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .boxsiagn{
@@ -54,6 +52,7 @@ header{
 .signup{
     padding: 5px;
     border-radius: 5px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .signup:hover{
     background-color: #0288D1;
@@ -101,7 +100,7 @@ header{
     font-weight: bold;
    margin: 0px auto;
    color: white;
-   
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .imgHeder{
@@ -119,7 +118,7 @@ header{
     align-items: center; 
     flex-direction: row-reverse;
     font-size: 14px;
-    
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
     margin-right: 30px;
    
@@ -219,6 +218,7 @@ cursor: pointer;
 padding: 7px;
 border-radius: 5px;
 font-size: 14px;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .menuFo:hover{
@@ -260,7 +260,7 @@ flex-direction: column;
     line-height: 30px;
     color: #a8a7a7;
     text-align: right;
-  
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    
 }
 
@@ -290,6 +290,7 @@ flex-direction: column;
 .donaplication{
    color: white;
     font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .bazar{
@@ -312,6 +313,7 @@ flex-direction: column;
 .textbazar{
     font-size: 14px;
     color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .textbazar:hover{
@@ -353,6 +355,12 @@ flex-direction: column;
     margin-top: 20px;
 }
 
+.about{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 .shaxsi{
   text-align: center;
 
@@ -361,6 +369,7 @@ flex-direction: column;
 .textfoo{
     color: white;
     font-size: 12px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 @media only screen and (max-width:1200px) {
@@ -397,7 +406,7 @@ flex-direction: column;
       
       .menuFo{
         font-size: 10px;
-
+    
       }
 
       .menuFooter{
@@ -427,10 +436,11 @@ flex-direction: column;
             
          }
          footer{
-            height: 600px;
+            height: 700px;
          }
 
          .disfooter{
+            
            height: 500px;
            font-size: 12px;
             
@@ -444,12 +454,11 @@ flex-direction: column;
 
          .majazi{
             display: block;
-
+            text-align: right;
+            margin-bottom: 40px;
         }
 
-        .textfoo{
-           
-        }
+       
 
 }
 

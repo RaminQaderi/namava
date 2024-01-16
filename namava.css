@@ -458,6 +458,9 @@ flex-direction: column;
             margin-bottom: 40px;
         }
 
+        .textfoo{
+            margin-right: 15px;
+        }
        
 
 }

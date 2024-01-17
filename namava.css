@@ -149,27 +149,35 @@ header{
   }
 
   .icons{
-    color: white;
     position: absolute;
     bottom: 350px;
     margin-left:25px ;
     cursor: pointer;
-    
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 50%;
   }
 
 
   .icons2{
-    color: white;
     position: absolute;
     bottom: 352px;
     display: flex;
-    left: 1500px;
-     cursor: pointer;
+    left: 1467px;
+    cursor: pointer;
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 50%;
+  }
+ 
+  .icons:hover{
+    background-color: #0288D1;
+    color: white;
   }
 
-  .icons:hover{
-     background-color: #242424;
-     padding: 30px;
+  .icons2:hover{
+    background-color: #0288D1;
+    color: white;
   }
 
 .MenuHeder{
@@ -489,6 +497,27 @@ flex-direction: column;
             margin-right: 15px;
         }
        
+        .icons{
+            position: absolute;
+            bottom: 230px;
+            margin-left:25px ;
+            cursor: pointer;
+            background-color: white;
+            padding: 10px 15px;
+            border-radius: 50%;
+          }
+
+
+          .icons2{
+            position: absolute;
+            bottom: 232px;
+            display: flex;
+            left: 385px;
+            cursor: pointer;
+            background-color: white;
+            padding: 10px 15px;
+            border-radius: 50%;
+          }
 
 }
 

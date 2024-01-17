@@ -144,6 +144,34 @@ header{
     border-radius: 20px;
   }
 
+  .container{
+    position: relative;
+  }
+
+  .icons{
+    color: white;
+    position: absolute;
+    bottom: 350px;
+    margin-left:25px ;
+    cursor: pointer;
+    
+  }
+
+
+  .icons2{
+    color: white;
+    position: absolute;
+    bottom: 352px;
+    display: flex;
+    left: 1500px;
+     cursor: pointer;
+  }
+
+  .icons:hover{
+     background-color: #242424;
+     padding: 30px;
+  }
+
 .MenuHeder{
     display: flex;
     justify-content: center;
@@ -208,7 +236,6 @@ header{
     background-color: #4a4949;
     gap: 25px;
     flex-direction: row-reverse;
-    
     
 }
 

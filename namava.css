@@ -71,7 +71,6 @@ header{
     gap: 10px;
     flex-wrap: wrap;
     
-    
 }
 .card1{
    width: 12%;
@@ -82,6 +81,7 @@ header{
    flex-wrap: wrap;
    cursor: pointer;
    margin-bottom: 50px;
+  
 }
 
 .card1:hover{
@@ -178,6 +178,44 @@ header{
   .icons2:hover{
     background-color: #0288D1;
     color: white;
+  }
+
+  .cardicons{
+   position: relative;
+  }
+
+  .iconcard{
+    color: white;
+    position: absolute;
+    bottom: 220px;
+    margin-left: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #0D47A1;
+    padding: 10px 15px;
+    border-radius: 50%;
+  }
+
+  .iconcard2{
+    color: white;
+    background-color: #0D47A1;
+    padding: 10px 15px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 220px;
+    margin-left: 1465px;
+    font-size: 20px;
+   cursor: pointer;
+  }
+
+  .iconcard:hover{
+    background-color: #0289d19a;
+    
+  }
+
+  .iconcard2:hover{
+    background-color: #0289d19a;
+    
   }
 
 .MenuHeder{

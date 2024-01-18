@@ -557,6 +557,14 @@ flex-direction: column;
             border-radius: 50%;
           }
 
+          .iconcard2{
+            display: none;
+          }
+
+          .iconcard{
+            display: none;
+          }
+
 }
 
 

@@ -185,20 +185,20 @@ header{
   }
 
   .iconcard{
-    color: white;
+
     position: absolute;
     bottom: 220px;
     margin-left: 10px;
     font-size: 20px;
     cursor: pointer;
-    background-color: #0D47A1;
+    background-color: white;
     padding: 10px 15px;
     border-radius: 50%;
   }
 
   .iconcard2{
-    color: white;
-    background-color: #0D47A1;
+   
+    background-color: white;
     padding: 10px 15px;
     border-radius: 50%;
     position: absolute;
@@ -209,13 +209,13 @@ header{
   }
 
   .iconcard:hover{
-    background-color: #0289d19a;
-    
+    background-color: #0289d1;
+    color: white;
   }
 
   .iconcard2:hover{
-    background-color: #0289d19a;
-    
+    background-color: #0289d1;
+    color: white;
   }
 
 .MenuHeder{

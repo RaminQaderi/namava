@@ -1,0 +1,26 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: rgba(224, 222, 222, 0.247);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.containernamava{
+    width: 450px;
+    height: 550px;
+    background-color: white;
+    box-shadow: 0px 1px 10px 0px rgba(128, 128, 128, 0.477);
+}
+
+.namavatxt{
+    font-size: 52px;
+    margin-top: 20px;
+    color: #2196F3;
+    text-align: center;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

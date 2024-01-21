@@ -7,20 +7,99 @@ body{
    display: flex;
    justify-content: center;
    align-items: center;
+   margin-top: 100px;
 }
 
 .containernamava{
-    width: 450px;
-    height: 550px;
+    width: 400px;
+    height:500px;
     background-color: white;
     box-shadow: 0px 1px 10px 0px rgba(128, 128, 128, 0.477);
 }
 
 .namavatxt{
     font-size: 52px;
-    margin-top: 20px;
+   
     color: #2196F3;
     text-align: center;
     font-weight: bold;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.textlogin{
+    display: flex;
+    justify-content: center;
+     align-items: center;
+     gap: 50px;
+     margin-top: 20px;
+}
+
+.signtxt{
+   font-size: 18px; 
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color: #2196F3;
+   font-weight: bold;
+   cursor: pointer;
+}
+
+.mobile{
+    font-size: 20px;
+    color: #2196F3;
+}
+
+.mobiletxt{
+    display: flex;
+    justify-content: right;
+    margin-right: 30px;
+    margin-top: 20px;
+    flex-direction: row-reverse;
+    gap: 20px;
+}
+
+
+.hamrahtxt{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.textobject{
+    margin-top: 40px;
+    display: flex;
+    justify-content: right;
+    margin-right: 30px;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #9E9E9E;
+}
+
+.cardinput{
+display: flex;
+justify-content: center;
+margin-top: 50px;
+ 
+}
+
+.inputt{
+    width: 97%;
+    padding: 10px;
+    border: none;
+    border:1px solid #8080805b;
+    border-radius: 7px
+
+}
+
+
+
+.shomare{
+    display: flex;
+    justify-content: right;
+    color: gray;
+    margin-bottom: 7px;
+}
+
+
+.hamrah{
+width: 80%;
 }

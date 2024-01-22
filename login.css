@@ -19,7 +19,6 @@ body{
 
 .namavatxt{
     font-size: 52px;
-   
     color: #2196F3;
     text-align: center;
     font-weight: bold;
@@ -123,6 +122,12 @@ width: 80%;
     
   
   }
+
+ .error{
+    margin-top: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+
     .btnwrood{
         display: flex;
         justify-content: center;

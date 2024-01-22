@@ -29,7 +29,7 @@
 
                  <div class="hamrah">
                     <p class="shomare">شماره تلفن همراه</p>
-                <input placeholder="+98" class="inputt" type="text" >
+                <input id="phone" placeholder="+98" class="inputt" type="text" >
                </div>
 
                
@@ -41,14 +41,15 @@
                  <div class="hamrah">
                     <p class="shomare">رمز عبور</p>
                     <div class="">
-                        <input class="inputt" type="password">
+                        <input id="password" class="inputt" type="password">
                        </div>
 
-               
+                   <p class="error" id="erortext"></p>
                
             </form>
             <div class="btn">
-           <input class="btnwrood" type="button" value="ورود">
+           <input onclick="showMasseg()" class="btnwrood" type="button" value="ورود">
+        
         </div>
 
             <div class="forgot">
@@ -60,3 +61,6 @@
     </div>
 </body>
 </html>
+
+
+<script src="login.js"></script>

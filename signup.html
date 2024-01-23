@@ -30,16 +30,18 @@
 
                  <div class="hamrah">
                     <p class="shomare">شماره تلفن همراه</p>
-                <input placeholder="+98" class="inputt" type="text" >
+                <input id="phone" placeholder="+98" class="inputt" type="text" >
+
+                <p class="error" id="erortext"></p>
                </div>
 
-               
+              
                
             </form>
-
+           
           
             <div class="btn">
-           <input class="btnwrood" type="button" value="ورود">
+           <input onclick="showMasseg()" class="btnwrood" type="button" value="ورود">
         </div>
 
          
@@ -47,3 +49,7 @@
     </div>
 </body>
 </html>
+
+
+
+<script src="./signup.js"></script>

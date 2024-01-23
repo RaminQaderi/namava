@@ -77,6 +77,11 @@ a{
     color: #9E9E9E;
 }
 
+.error{
+    margin-top: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+
 .cardinput{
 display: flex;
 justify-content: center;

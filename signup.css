@@ -15,6 +15,7 @@ body{
     height:430px;
     background-color: white;
     box-shadow: 0px 1px 10px 0px rgba(128, 128, 128, 0.477);
+    border-radius: 10px;
 }
 
 .namavatxt{

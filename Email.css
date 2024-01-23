@@ -12,14 +12,13 @@ body{
 
 .containernamava{
     width: 400px;
-    height:430px;
+    height:550px;
     background-color: white;
     box-shadow: 0px 1px 10px 0px rgba(128, 128, 128, 0.477);
 }
 
 .namavatxt{
     font-size: 52px;
-   
     color: #2196F3;
     text-align: center;
     font-weight: bold;
@@ -33,6 +32,7 @@ body{
      gap: 50px;
      margin-top: 20px;
 }
+
 a{
     text-decoration: none;
 }
@@ -77,12 +77,6 @@ a{
     color: #9E9E9E;
 }
 
-.error{
-    margin-top: 5px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: right;
- }
-
 .cardinput{
 display: flex;
 justify-content: center;
@@ -91,12 +85,13 @@ margin-top: 50px;
 }
 
 .inputt{
+    text-align: right;
     width: 97%;
     padding: 10px;
     border: none;
     border:1px solid #8080805b;
     border-radius: 7px
-
+    
 }
 
 
@@ -128,6 +123,13 @@ width: 80%;
     
   
   }
+
+ .error{
+    margin-top: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: right;
+ }
+
     .btnwrood{
         display: flex;
         justify-content: center;
@@ -149,6 +151,23 @@ width: 80%;
     }
 
 
+    .forgot{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
+    }
 
- 
+    .forgotpass{
+        color: #2196F3;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .email{
+        margin-top: 20px;
+        color: #2196F3;
+        font-weight: bold;
+        cursor: pointer;
+    }

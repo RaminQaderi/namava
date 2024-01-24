@@ -132,7 +132,7 @@ width: 80%;
     .btnwrood{
         display: flex;
         justify-content: center;
-        padding: 10px 155px;
+        padding: 10px 90px;
         margin-left: 13px;
         border-radius: 5px;
         border: none;
@@ -149,8 +149,3 @@ width: 80%;
         color: white;
         
     }
-
-
-
-
- 

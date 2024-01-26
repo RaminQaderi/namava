@@ -597,25 +597,12 @@ flex-direction: column;
         }
        
         .icons{
-            position: absolute;
-            bottom: 230px;
-            margin-left:25px ;
-            cursor: pointer;
-            background-color: white;
-            padding: 10px 15px;
-            border-radius: 50%;
+          display: none;
           }
 
 
           .icons2{
-            position: absolute;
-            bottom: 232px;
-            display: flex;
-            left: 385px;
-            cursor: pointer;
-            background-color: white;
-            padding: 10px 15px;
-            border-radius: 50%;
+           display: none;
           }
 
           .iconcard2{

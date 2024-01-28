@@ -285,7 +285,26 @@ a{
     background-color: #0289d1;
     color: white;
   }
+.dots{
+    position: absolute;
+    gap: 10px;
+    left: 0px;
+    right: 0px;
+    top:700px;
+    display: flex;
+    justify-content: center;
+   cursor: pointer;
+}
+.dot{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+}
 
+.active{
+    background-color: #0288D1;
+}
 .MenuHeder{
     display: flex;
     justify-content: center;
@@ -624,6 +643,11 @@ flex-direction: column;
           .show{
             display: block !important;
             
+        }
+
+
+        .dots{
+            top: 400px;
         }
 
           

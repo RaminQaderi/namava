@@ -6,6 +6,43 @@ const slide = document.querySelectorAll('.slide')
 const btnleft = document.querySelector('.icons')
 const btnRight = document.querySelector('.icons2')
 const dots = document.querySelector('.dots')
+const swipe = document.getElementById('swipe')
+
+
+let first_touch = ''
+let last_touch = ''
+
+
+
+function handletouchStart(event){
+ first_touch = event.changedTouches[0].screenX;
+
+}
+
+
+function handletouchMove(event){
+ last_touch = event.changedTouches[0].screenX;
+
+}
+
+slider.addEventListener('touchstart',handletouchStart, false)
+
+slider.addEventListener('touchmove',handletouchMove, false)
+
+slider.addEventListener('touchend',()=>{
+  if(first_touch > last_touch)
+      nextslider()
+   else
+      prevslider()
+})
+
+
+
+
+
+
+
+
 
 
 slide.forEach(item => {
